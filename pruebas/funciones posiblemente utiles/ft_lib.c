@@ -1,7 +1,7 @@
 int		intpower(int a, int b)
 {
 	if (b == 0)
-		return ('1');
+		return (1);
 	else if (b == 1)
 		return (a);
 	else
