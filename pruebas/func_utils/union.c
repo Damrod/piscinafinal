@@ -31,10 +31,10 @@ int		main(int argc, char **argv)
 	i = 0;
 	b = ft_strlen(argv[1]);
 	d = ft_strlen(argv[2]);
-	
+
 	char C[b + d];
 	m = 0;
-	
+
 	while(i <= b)
 	{
 		if (argv[1][i] < 127 && argv[1][i] > 33)
@@ -60,6 +60,6 @@ int		main(int argc, char **argv)
 		}
 		i++;
 	}
-	
+
 printf ("\nb = %d argv=%s", b, argv[1]);
 }
